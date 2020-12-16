@@ -1,0 +1,24 @@
+MÓDULO 04 - CSS - AULA 02
+
+BORDAS
+    sintaxe, tipo(10), cor, espessura
+
+FONTES E CORES
+    padrão para colocar fontes e sintaxe
+    cores
+
+TAMANHOS DE TEXTOS
+    sintaxe e formas(3), tamanhos padrões
+
+ESTILOS DE TEXTOS
+    negrito, italico, sublinhado e caixa
+
+IMAGEM DE FUNDO E COR DE FUNDO
+    imagem, cor, alinhamento, fixo, repetição
+
+CSS EXTERNO
+
+
+REVISÃO
+    17/12/2020 - DIA
+    24/12/2020 - SEMANA 01
