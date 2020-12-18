@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 03 - Box-model</title>
+    <style>
+        .conteudo{
+            width: 150px;
+            border: 1px solid crimson;
+
+            /* Espaçamento interno - alteram o valor do width e height */
+            /* padding-top: 20px;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-bottom: 20px; */
+            padding: 20px;
+
+            /* Espaçamento externo - pega a margem maior (margin collapse)*/
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- tags html se comportam com caixa -->
+
+    <div class="conteudo">
+        Conteúdo
+    </div>
+
+    <div class="conteudo">
+        Conteúdo 2
+    </div>
+</body>
+</html>
