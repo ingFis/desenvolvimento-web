@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 04 - Elementos Flutuantes</title>
+    <style>
+        .conteudo{
+            background-color: dodgerblue;
+            border: gray 1px solid;
+            width: 200px;
+            height: 200px;
+        }
+
+        /* float - sai do fluxo normal do documento - vai para o fluxo flutuante - os outros elementos se comportam como se o flutuante não existisse */
+        .conteudo1{
+            background-color: lawngreen;
+            border: gray 1px solid;
+            width: 150px;
+            height: 150px;
+            float: left;
+        }
+
+        /* Fica um ao lado do outro - concorrem pelo espaço, pois todos estão flutuando */
+        .conteudo2{
+            background-color: lawngreen;
+            border: gray 1px solid;
+            width: 150px;
+            height: 150px;
+            float: left;
+            margin: 10px;
+        }
+
+        .conteudo-zero{
+            background-color: lightsalmon;
+            border: gray 1px solid;
+            width: 200px;
+            height: 200px;
+        }
+
+        /* O conteúdo 6 fica sem espaço */
+        .maior{
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="conteudo-zero">conteúdo 0</div>
+
+    <div class="conteudo1">conteúdo 1</div>
+    <div class="conteudo">conteúdo 2</div>
+    <div class="conteudo">conteúdo 3</div>
+
+    <br><br><br>
+
+    <div class="conteudo2 maior">conteúdo 4</div>
+    <div class="conteudo2">conteúdo 5</div>
+    <div class="conteudo2">conteúdo 6</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+MÓDULO 04 - CSS - AULA 04
+
+ELEMENTOS FLUTUANTES
+    como funciona, sintaxe
+    Limpa o fluxo flutuante(3 formas)
+    o que acontece com uma div principal se dentro dela só houver elementos flutuantes?
+
+
+REVISÃO
+    19/12/2020 - DIA
+    26/12/2020 - SEMANA 01
