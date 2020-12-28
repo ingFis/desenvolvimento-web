@@ -1,0 +1,16 @@
+MÓDULO 04 - CSS3
+
+ELEMENTOS   
+    block, inline e inline-block - diferenças e sintaxe
+
+POSIÇÃO
+    static, relative, absolute e fixed - como funciona
+
+SOBREPOR ELEMENTOS
+    sintaxe e como funciona
+
+LINK
+    4 estados
+
+REVISÃO
+    29/12/2020 - DIA

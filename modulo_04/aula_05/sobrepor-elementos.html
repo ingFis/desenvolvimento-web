@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 05 - Sobrepondo elementos</title>
+    <style>
+        .conteudo1{
+            border: 1px solid red;
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+
+            /* Contexto de empilhamento */
+            /* Define qual elemento aparece primeiro - quanto maior o número mais a frente - se for o mesmo segue a ordem do documento*/
+            z-index: 2;
+        }
+
+        .conteudo2{
+            border: 1px solid blue;
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+
+            z-index: 1;
+        }
+
+        .conteudo3{
+            border: 1px solid crimson;
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 160px;
+            left: 160px;
+
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo1">
+        Conteúdo 1
+    </div>
+    <div class="conteudo2">
+        Conteúdo 2
+    </div>
+
+    <div class="conteudo3">
+        Conteúdo 3
+    </div>
+</body>
+</html>

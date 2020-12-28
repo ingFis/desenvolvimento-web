@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 05 - Posicionamento estático e relativo</title>
+    <style>
+
+        body{
+            background-color:#007fc7;
+        }
+
+        .container{
+            background-color: #FFF;
+            width: 800px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        h1{
+            /* Estático - padrão - elementos block aparecem um abaixo do outro */
+            position: static;
+        }
+
+        p{
+            width: 300px;
+        }
+
+        .relative{
+            border: 1px solid darkred;
+            position: relative;
+            /* Propriedades de deslocamento: top, right, bottom, left - realinha baseado na posição inicial*/
+            /* 0px volta para a posição inicial */
+            top: -110px;
+            left: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Posicionamentos</h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend, 
+            dui condimentum faucibus porta, mi nisi placerat diam, eget ullamcorper quam felis et justo. 
+            Proin in faucibus augue. 
+        </p>
+        <p class="relative">
+            P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend, 
+            dui condimentum faucibus porta, mi nisi placerat diam, eget ullamcorper quam felis et justo. 
+            Proin in faucibus augue. 
+        </p>
+        <p>
+            P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend, 
+            dui condimentum faucibus porta, mi nisi placerat diam, eget ullamcorper quam felis et justo. 
+            Proin in faucibus augue. 
+        </p>
+    </div>
+</body>
+</html>
